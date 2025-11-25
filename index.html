@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>AR Plane Grid</title>
+    <script src="three.min.js"></script>
+    <script src="opencv.js"></script>
+    <script src="script.js" defer></script>
+    <style>
+        body, html { margin:0; overflow:hidden; }
+        video { display:none; }
+        canvas { position:absolute; top:0; left:0; }
+    </style>
+</head>
+<body>
+    <video id="camera" autoplay playsinline></video>
+    <canvas id="cvCanvas"></canvas>
+    <canvas id="threeCanvas"></canvas>
+</body>
+</html>
